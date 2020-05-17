@@ -10,23 +10,57 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <style type="text/css">
-      .navbar-brand{font-family: 'Fredoka One', cursive;}
+		.navbar-brand{font-family: 'Arial', cursive;}
+		.nav-item{ 
+			font-weight:normal !important;
+		}
+
+		.nav-link:hover{
+			color:#FFF !important;
+		}
+		.nav-item:hover{
+			background-color: #00BFFF !important;
+			border-radius: 10px; 
+		}
+
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-white" style=" background-color:#00BFFF">
-      <a href="" class="navbar-brand mx-auto">Naufrago</a>
-    </nav>
-    <hr>
+	<div class="row" style="display: flex; justify-content: center">
+		<div class="col-md-12 container-fluid row" style="background-color:#00BFFF!important;  "  >
+			
+			<img class="card-img-top" width="100vw"  src="https://github.com/anageek/naufrago/blob/master/site-cover.png?raw=true"></img>
+		</div>	
+			
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#FFF!important;"  >
+			<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+				<ul class="navbar-nav mr-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Media
+					</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Documentation
+					</a>
+				  </li>				  
+				</ul>
+		  </div>
+		</nav>
+	</div>	
+	
+   
     <div class="container">
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-5">
-            <img class="card-img-top" src="https://images.pexels.com/photos/2045315/pexels-photo-2045315.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></img>
+            <img class="card-img-top" src="https://github.com/anageek/naufrago/blob/master/ana-profile.png?raw=true"></img>
             <div class="card-body">
-              <h5 class="card-title">Title</h5>
+              <h5 class="card-title">Ana Geek</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                Developer
               </p>
             </div>
           </div>
@@ -35,7 +69,7 @@
     </div>
     <div class="jumbotron d-flex justify-content-center mb-0">
       <div class="list-group list-group-horizontal" style="font-size: 60px">
-        <a href="instagram.com/ana.geek" class="list-group-item">
+        <a href="http://www.instagram.com/ana.geek" class="list-group-item">
           <i class="fab fa-instagram"></i>
         </a>
         <a href="https://www.youtube.com/anageek" class="list-group-item">
