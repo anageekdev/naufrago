@@ -5,7 +5,9 @@ body{
 .nav-item{ 
 	font-weight:normal !important;
 }
-
+.nav-link{
+	color:#000 !important;
+}
 .nav-link:hover{
 	color:#FFF !important;
 }
