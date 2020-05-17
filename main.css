@@ -15,3 +15,10 @@ body{
 	background-color: #00BFFF !important;
 	border-radius: 10px; 
 }
+.carousel-control-prev-icon {
+  
+  background-image: url(https://github.com/anageek/naufrago/blob/master/previous-arrow.png?raw=true) !important;
+}
+.carousel-control-next-icon {
+	  background-image: url(https://github.com/anageek/naufrago/blob/master/next-arrow.png?raw=true) !important;
+}
