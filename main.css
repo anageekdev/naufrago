@@ -1,0 +1,15 @@
+body{
+	background-image: url(https://github.com/anageek/naufrago/blob/master/fundo-site.png?raw=true); background-repeat: repeat;
+}
+.navbar-brand{font-family: 'Arial', cursive;}
+.nav-item{ 
+	font-weight:normal !important;
+}
+
+.nav-link:hover{
+	color:#FFF !important;
+}
+.nav-item:hover{
+	background-color: #00BFFF !important;
+	border-radius: 10px; 
+}
