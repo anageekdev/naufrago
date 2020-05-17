@@ -1,5 +1,5 @@
 body{
-	background-image: url(https://github.com/anageek/naufrago/blob/master/fundo-site.png?raw=true); background-repeat: repeat;
+	background-image: url(https://github.com/anageek/naufrago/blob/master/fundo-site.png?raw=true) !important; background-repeat: repeat;
 }
 .navbar-brand{font-family: 'Arial', cursive;}
 .nav-item{ 
