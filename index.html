@@ -162,6 +162,11 @@
 			if (document.querySelector('.darkreader') !== null) {
 				alert('Ei, esse site fica melhor sem o tema escuro, que tal desabilita-lo?');
 			}
+
+			$(".carousel-item img").on("click", (el) => {
+				$("#img01").attr("src", el.target.src);
+				$('.foto-zoom').css({display: "block"});
+			})
 			adjust_navbar();
 		});
 
