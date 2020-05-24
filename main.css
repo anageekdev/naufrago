@@ -1,5 +1,5 @@
 body{
-	
+	overflow-x: hidden;
 }
 .navbar-brand{font-family: 'Chelsea Market', cursive !important;}
 .nav-item{ 
@@ -46,9 +46,6 @@ body{
 
 
 .carousel-item img{
-  object-fit: cover;
-  /* height: 100% !important; */
-	width: auto;
 	cursor: zoom-in;
 	transition: 0.3s;
 }
@@ -120,4 +117,14 @@ body{
   .modal-content {
     width: 100%;
   }
+}
+
+.profile_image{
+  width: 100px !important;
+  height: 100px;
+}
+.release_new{
+  padding: 10px 0 ;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
 }
