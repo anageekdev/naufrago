@@ -37,7 +37,8 @@
 			<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="https://anageek.github.io/naufrago/">Home <span class="sr-only">Home</span></a>
+						<a class="nav-link" href="https://anageek.github.io/naufrago/">Home <span
+								class="sr-only">Home</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Media
@@ -59,15 +60,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<iframe width="100%" height="900" frameborder="0" src="https://docs.google.com/document/d/e/2PACX-1vS8pa4NbsX4UyviwVvpCk077CUftAwK8s5FZqaetuolzZzKpuvZ1nAgSWdAds_9i2cMQb_f22WcL10f/pub?embedded=true"></iframe>
-
+				<iframe width="100%" height="900" frameborder="0"
+					src="https://docs.google.com/document/d/e/2PACX-1vS8pa4NbsX4UyviwVvpCk077CUftAwK8s5FZqaetuolzZzKpuvZ1nAgSWdAds_9i2cMQb_f22WcL10f/pub?embedded=true"></iframe>
 			</div>
 		</div>
 	</div>
 
 
 
-			
+
 
 	<div class="jumbotron d-flex justify-content-center mb-0">
 		<div class="list-group list-group-horizontal" style="font-size: 60px">
@@ -77,13 +78,13 @@
 			<a href="https://www.youtube.com/anageek" class="list-group-item">
 				<i class="fab fa-youtube-square"></i>
 			</a>
-			
-			<a href="https://twitter.com/NaufragoIsland" class="list-group-item" >
+
+			<a href="https://twitter.com/NaufragoIsland" class="list-group-item">
 				<i class="fab fa-twitter-square"></i>
 			</a>
 
 
-			
+
 		</div>
 	</div>
 
@@ -107,7 +108,7 @@
 
 			$(".carousel-item img").on("click", (el) => {
 				$("#img01").attr("src", el.target.src);
-				$('.foto-zoom').css({display: "block"});
+				$('.foto-zoom').css({ display: "block" });
 			})
 			adjust_navbar();
 		});
@@ -115,26 +116,26 @@
 		$(window).resize(() => {
 			adjust_navbar();
 		});
-		function hide_fotozoom(){
-			$('.foto-zoom').css({display: "none"})
+		function hide_fotozoom() {
+			$('.foto-zoom').css({ display: "none" })
 		}
 
-		function adjust_navbar(){
+		function adjust_navbar() {
 			if ($(document).width() <= 992) {
 				$(".navbar").addClass("fixed-top");
 				$(".banner").css({ display: "none" });
-				$(".div-content").css({ "margin-top": `${$(".navbar").height()+25}px` });
-				$(".navbar").css({"background-image": "url(https://github.com/anageek/naufrago/blob/master/site-cover.png?raw=true)", "background-position": "95%" });
-				$(".navbar-collapse").css({"background-color": "rgba(255, 255, 255, 0.2)"});
-				$("a.nav-link").css({"font-weight": "bold", "margin-left": "15px"});
+				$(".div-content").css({ "margin-top": `${$(".navbar").height() + 25}px` });
+				$(".navbar").css({ "background-image": "url(https://github.com/anageek/naufrago/blob/master/site-cover.png?raw=true)", "background-position": "95%" });
+				$(".navbar-collapse").css({ "background-color": "rgba(255, 255, 255, 0.2)" });
+				$("a.nav-link").css({ "font-weight": "bold", "margin-left": "15px" });
 			}
 			else {
 				$(".navbar").removeClass("fixed-top");
 				$(".banner").css({ display: "block" });
 				$(".div-content").css({ "margin-top": `0px` });
-				$(".navbar").css({"background-image": "" });
-				$(".navbar-collapse").css({"background-color": "transparent"});
-				$("a.nav-link").css({"font-weight": "normal", "margin-left": "0px"});
+				$(".navbar").css({ "background-image": "" });
+				$(".navbar-collapse").css({ "background-color": "transparent" });
+				$("a.nav-link").css({ "font-weight": "normal", "margin-left": "0px" });
 
 			}
 		}

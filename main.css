@@ -128,3 +128,11 @@ body{
   border-bottom: 1px solid #ccc;
   align-items: center;
 }
+
+#lightgallery img {
+  transition: all 0.3s ease-in-out;
+}
+
+#lightgallery img:hover {
+  transform: scale(1.05);
+}
