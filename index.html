@@ -12,7 +12,8 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
 	<style type="text/css">
 	</style>
 </head>
@@ -68,9 +69,8 @@
 			
 			<!-- slider -->
 	
-			<div class="div-content col-8 d-flex justify-content-center">
-				<div id="carouselExampleIndicators" class="carousel slide col-md-12" data-ride="carousel"
-					style="display: flex; justify-content: center">
+			<div class="div-content col-8 px-0 py-2 d-flex justify-content-center">
+				<div id="carouselExampleIndicators" class="carousel slide col-md-12 px-0 d-flex justify-content-center" data-ride="carousel" >
 					<ol class="carousel-indicators">
 						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -133,13 +133,16 @@
 		
 			<!-- dev info	-->
 			<div class="col-4 d-flex justify-content-end">
-				<div class="card mb-2">
-					<img class="card-img-top" src="https://github.com/anageek/naufrago/blob/master/ana-profile.png?raw=true"></img>
-					<div class="card-body">
-						<p> 
+				<div class="card ">
+				    <div class="">
+						<img class="card-img-top rounded mx-auto d-block"  style="width:200px;height:200px;" src="https://github.com/anageek/naufrago/blob/master/ana-profile.png?raw=true"></img>
+					</div>
+					
+					<div class="card-body pt-0" >
+						
 							<h5 class="card-title">Ana Geek</h5>
 							<h6 >Developer</h6>
-						</p>
+						
 						<p class="card-text">
 						I started developing Naufrago in September 2019
 						</p>
@@ -148,10 +151,21 @@
 			</div>
 				
 
-
+			<div class=" mt-5">
+				<h1>Alpha release</h1>
+				<div class="d-flex justify-content-between">
+					<div width="200px">
+						<p >Alpha version now available</p>
+					</div>
+									
+					<button type="button" class="btn btn-primary ">Download</button>
+				</div>
+			</div>
 			
-			<div class="col-md-12 d-flex  justify-content-end"  >
-				<a class="twitter-timeline " data-chrome="nofooter transparent" width="250" height="500"  href="https://twitter.com/NaufragoIsland?ref_src=twsrc%5Etfw"></a> 
+			
+			
+			<div class="col-md-12 pb-4 d-flex  justify-content-end"  >
+				<a class="twitter-timeline " data-chrome="nofooter transparent" width="350" height="500"  href="https://twitter.com/NaufragoIsland?ref_src=twsrc%5Etfw"></a> 
 			</div>
 			
 		</div>
@@ -178,8 +192,6 @@
 			<a href="https://twitter.com/NaufragoIsland" class="list-group-item" >
 				<i class="fab fa-twitter-square"></i>
 			</a>
-
-
 			
 		</div>
 	</div>
@@ -199,7 +211,7 @@
 	<script>
 		$(document).ready(function () {
 			if (document.querySelector('.darkreader') !== null) {
-				alert('Ei, esse site fica melhor sem o tema escuro, que tal desabilita-lo?');
+				alert('Hello,this website works better in white theme');
 			}
 
 			$(".carousel-item img").on("click", (el) => {
