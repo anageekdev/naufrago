@@ -1,58 +1,60 @@
-body{
-	overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-.navbar-brand{font-family: 'Chelsea Market', cursive !important;}
-.nav-item{ 
-	font-weight:normal !important;
-	margin-right:10px !important;
-	border-bottom:2px solid #00BFFF !important;
-	border-radius: 10px; 
-	padding-left:10px;
-	padding-right:10px;
-	font-family: 'Chelsea Market', cursive !important;
-	
+.navbar-brand {
+  font-family: "Chelsea Market", cursive !important;
+}
+.nav-item {
+  font-weight: normal !important;
+  margin-right: 10px !important;
+  border-bottom: 2px solid #00bfff !important;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Chelsea Market", cursive !important;
 }
 
-.nav-link{
-	color: 	rgba(0,95,127,.7 ) !important;
-		
+.nav-link {
+  color: rgba(0, 95, 127, 0.7) !important;
 }
-.nav-link:hover{
-	color:#FFF !important;
+.nav-link:hover {
+  color: #fff !important;
 }
-.nav-item:hover{
-	background-color: #00BFFF !important;
-	border-radius: 10px; 
-	border-bottom:2px solid #1E90FF !important;
+.nav-item:hover {
+  background-color: #00bfff !important;
+  border-radius: 10px;
+  border-bottom: 2px solid #1e90ff !important;
+}
+.arrow-size {
+  height: 120px;
+  margin-top: 22%;
 }
 .carousel-control-prev-icon {
-  
   background-image: url(https://github.com/anageek/naufrago/blob/master/previous-arrow.png?raw=true) !important;
 }
 .carousel-control-next-icon {
-	  background-image: url(https://github.com/anageek/naufrago/blob/master/next-arrow.png?raw=true) !important;
+  background-image: url(https://github.com/anageek/naufrago/blob/master/next-arrow.png?raw=true) !important;
 }
 
 .carousel {
-	height: 50vh;
+  height: 50vh;
 }
 
 .carousel-item {
-    margin-right: 10px;
-	background: transparent;
-	width: 100%;
-	height: 100%;
+  margin-right: 10px;
+  background: transparent;
+  width: 100%;
+  height: 100%;
 }
 
-
-.carousel-item img{
-	cursor: zoom-in;
-	transition: 0.3s;
+.carousel-item img {
+  cursor: zoom-in;
+  transition: 0.3s;
 }
 
 .div-content {
-	margin-right: 0px !important;
-	margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 
 .foto-zoom {
@@ -64,25 +66,25 @@ body{
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden; 
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.9);
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .modal-content {
   margin: auto;
   display: block;
-	width: 100%;
-	max-width: 80vw;
-	max-height: 80vh;
-	height: auto;
+  width: 100%;
+  max-width: 80vw;
+  max-height: 80vh;
+  height: auto;
 }
 
 @media screen and (max-width: 600px) {
   .modal-content {
-		max-width: 100vw !important;
-		max-height: 100vh !important;
-	}
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+  }
 }
 #caption {
   margin: auto;
@@ -94,7 +96,6 @@ body{
   padding: 10px 0;
   height: 150px;
 }
-
 .close {
   position: absolute;
   top: 15px;
@@ -109,29 +110,33 @@ body{
 .close:focus {
   color: #bbb;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
 }
 
-.profile_image{
+.profile_image {
   width: 200px !important;
   height: 200px;
 }
-.card{
+.arrow-size {
+  height: 120px;
+  margin-top: 25%;
+}
+.card {
   border-right: 0px !important;
   border-top: 0px !important;
   border-bottom: 0px !important;
   border-left: 0px !important ;
-  border-radius: 0px !important;;
+  border-radius: 0px !important;
 }
-.release_new{
-  padding: 10px 0 ;
+.release_new {
+  padding: 10px 0;
   border-bottom: 1px solid #ccc;
   align-items: center;
 }
