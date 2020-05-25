@@ -120,8 +120,15 @@ body{
 }
 
 .profile_image{
-  width: 100px !important;
-  height: 100px;
+  width: 200px !important;
+  height: 200px;
+}
+.card{
+  border-right: 0px !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+  border-left: 0px !important ;
+  border-radius: 0px !important;;
 }
 .release_new{
   padding: 10px 0 ;
