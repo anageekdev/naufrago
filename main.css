@@ -37,7 +37,7 @@ body {
 }
 
 .carousel {
-  height: 50vh;
+  /* height: 50vh; */
 }
 
 .carousel-item {
@@ -124,6 +124,16 @@ body {
   width: 200px !important;
   height: 200px;
 }
+@media screen and (max-width: 1000px) and (min-width: 400px) {
+
+  .profile_image {
+    margin-top: 50px;
+    width: 200px !important;
+    height: 200px;
+  }
+
+}
+
 .arrow-size {
   height: 120px;
   margin-top: 25%;
