@@ -158,3 +158,9 @@ body {
 #lightgallery img:hover {
   transform: scale(1.05);
 }
+.navbar-toggler{
+  background-color:#FFF!important; 
+  position: relative;
+  left: 0; 
+  z-index: 1;
+}

@@ -25,10 +25,10 @@
                 src="https://github.com/anageek/naufrago/blob/master/site-cover.png?raw=true"></img>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#FFF!important;">
-            <button class="navbar-toggler" style="position: relative; left: 0; z-index: 1;" type="button"
-                data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado"
-                aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <button class="navbar-toggler" style="" type="button" data-toggle="collapse"
+                data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
@@ -51,26 +51,26 @@
     </div>
 
 
-    <div class="container pb-5">
+    <div class="container pb-5 mt-4">
         <div class="row">
-            <div id="lightgallery" class="d-flex flex-wrap flex-row">
+            <div id="lightgallery" class="d-flex flex-wrap flex-row mt-3">
                 <a href="https://github.com/anageek/naufrago/blob/master/teste1920x1080.png?raw=true"
-                    class="col-4 mt-4">
+                    class="col-md-4 mt-4">
                     <img src="https://github.com/anageek/naufrago/blob/master/teste1920x1080.png?raw=true"
                         class="img-fluid" />
                 </a>
                 <a href="https://github.com/anageek/naufrago/blob/master/teste1920x1080.png?raw=true"
-                    class="col-4 mt-4">
+                    class="col-md-4 mt-4">
                     <img src="https://github.com/anageek/naufrago/blob/master/teste1920x1080.png?raw=true"
                         class="img-fluid" />
                 </a>
                 <a href="https://github.com/anageek/naufrago/blob/master/teste1920x1080.png?raw=true"
-                    class="col-4 mt-4">
+                    class="col-md-4 mt-4">
                     <img src="https://github.com/anageek/naufrago/blob/master/teste1920x1080.png?raw=true"
                         class="img-fluid" />
                 </a>
                 <a href="https://github.com/anageek/naufrago/blob/master/teste1920x1080.png?raw=true"
-                    class="col-4 mt-4">
+                    class="col-md-4 mt-4">
                     <img src="https://github.com/anageek/naufrago/blob/master/teste1920x1080.png?raw=true"
                         class="img-fluid" />
                 </a>
@@ -131,14 +131,16 @@
             $('.foto-zoom').css({ display: "none" })
         }
 
+
         function adjust_navbar() {
             if ($(document).width() <= 992) {
                 $(".navbar").addClass("fixed-top");
-                $(".banner").css({ display: "none" });
+                $(".banner").css({ display: "none", "background-color": "#00bfff" });
                 $(".div-content").css({ "margin-top": `${$(".navbar").height() + 25}px` });
                 $(".navbar").css({ "background-image": "url(https://github.com/anageek/naufrago/blob/master/site-cover.png?raw=true)", "background-position": "95%" });
-                $(".navbar-collapse").css({ "background-color": "rgba(255, 255, 255, 0.2)" });
+                $(".navbar-collapse").css({});
                 $("a.nav-link").css({ "font-weight": "bold", "margin-left": "15px" });
+                $(".nav-item").css({ "background-color": "rgba(255, 255, 255, .8)", "border-radius": "10px" });
             }
             else {
                 $(".navbar").removeClass("fixed-top");

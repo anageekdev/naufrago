@@ -27,10 +27,10 @@
 				src="https://github.com/anageek/naufrago/blob/master/site-cover.png?raw=true"></img>
 		</div>
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#FFF!important;">
-			<button class="navbar-toggler" style="position: relative; left: 0; z-index: 1;" type="button"
-				data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado"
-				aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-lg navbar-light" style="">
+			<button class="navbar-toggler" style="" type="button" data-toggle="collapse"
+				data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+				aria-label="Toggle navigation">
 				<i class="fas fa-bars"></i>
 			</button>
 			<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
@@ -68,8 +68,7 @@
 
 			<!-- slider -->
 			<div class="div-content col-md-8">
-				<div id="carouselExampleIndicators" class="carousel slide"
-					data-ride="carousel">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -230,11 +229,12 @@
 		function adjust_navbar() {
 			if ($(document).width() <= 992) {
 				$(".navbar").addClass("fixed-top");
-				$(".banner").css({ display: "none" });
+				$(".banner").css({ display: "none", "background-color": "#00bfff" });
 				$(".div-content").css({ "margin-top": `${$(".navbar").height() + 25}px` });
 				$(".navbar").css({ "background-image": "url(https://github.com/anageek/naufrago/blob/master/site-cover.png?raw=true)", "background-position": "95%" });
-				$(".navbar-collapse").css({ "background-color": "rgba(255, 255, 255, 0.2)" });
+				$(".navbar-collapse").css({});
 				$("a.nav-link").css({ "font-weight": "bold", "margin-left": "15px" });
+				$(".nav-item").css({ "background-color": "rgba(255, 255, 255, .8)", "border-radius": "10px" });
 			}
 			else {
 				$(".navbar").removeClass("fixed-top");
