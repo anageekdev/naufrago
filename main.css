@@ -51,7 +51,9 @@ body {
   cursor: zoom-in;
   transition: 0.3s;
 }
-
+.carousel-indicators {
+  transform: translateY(-30px)
+  }
 .div-content {
   margin-right: 0px !important;
   margin-left: 0px !important;
